@@ -1,0 +1,17 @@
+/*#Latihan
+Buat tampilan seperti di bawah ini :
+1
+12
+123
+1234
+12345
+(Jangan manual, harus pakai for)*/
+
+//For
+for(var i = 1; i <= 5; i++){
+    var temp = ''; //Variabel Penampung sementara
+    for(var j = 1;j <= i;j++){
+        temp = temp + j;
+    }
+    console.log(temp);
+}
